@@ -5,7 +5,7 @@ import { Button, Tabs, Tab } from "react-bootstrap";
 import { loggedIn, info } from "../App";
 import Block from "../components/blocks";
 import axios from "axios";
-import Info from "../components/Info";
+import Info from "../components/info";
 
 function HomeScreen() {
   const [login, setLogin] = useContext(loggedIn);
