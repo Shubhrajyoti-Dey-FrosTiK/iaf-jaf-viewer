@@ -3,6 +3,7 @@ export const branchExtractor = (branch) => {
   let res = "";
   for (let key in branch) {
     if (branch[key]) {
+      if(branch[key].length === 0) continue;
       res += key.toString() + " , ";
     }
   }
