@@ -258,10 +258,18 @@ function Info({ data, type, iaf, jaf }) {
             ),
           },
           {
-            heading: "IDD",
+            heading: "IDD 3rd Year",
             value: branchExtractor(
               data.data["Discipline Program and Specialization Details"][
                 "IDD 3rd Year"
+              ]
+            ),
+          },
+          {
+            heading: "IDD 4th Year",
+            value: branchExtractor(
+              data.data["Discipline Program and Specialization Details"][
+                "IDD 4th Year"
               ]
             ),
           },
